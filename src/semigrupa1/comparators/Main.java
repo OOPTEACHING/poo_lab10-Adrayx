@@ -1,0 +1,61 @@
+package semigrupa1.comparators;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Person person1 = new Person("Ioana",23,5);
+        Person person2 = new Person("Mihai",31,2);
+        Person person3 = new Person("Anca",7,18);
+
+        List<Person> persons = new ArrayList<>();;
+
+        persons.add(person1);
+        persons.add(person2);
+        persons.add(person3);
+
+/*
+        System.out.println("COMPARARE FOLOSIND AGE");
+        System.out.println("Before Sort using Comparable");
+        for(Person person : persons) {
+            System.out.println(person);
+        }
+
+        Collections.sort(persons);
+        System.out.println();
+
+        System.out.println("After Sort using Comparable");
+        for(Person person : persons) {
+            System.out.println(person);
+        }*/
+/*
+        System.out.println("COMPARARE FOLOSIND CNP");
+        System.out.println("Before Sort using Comparator");
+        for(Person person : persons) {
+            System.out.println(person);
+        }
+
+        // aici e diferenta
+        PersonCnpComparator personCnpComparator = new PersonCnpComparator();
+        Collections.sort(persons, personCnpComparator);
+        System.out.println();
+
+        System.out.println("After Sort using Comparator");
+        for(Person person : persons) {
+            System.out.println(person);
+        }*/
+
+        // afisare folosind un Iterator
+        Iterator<Person> it = persons.iterator();
+        while (it.hasNext()) {
+            Person aPerson = it.next(); // No downcast.
+            System.out.println(aPerson);
+        }
+
+    }
+}
