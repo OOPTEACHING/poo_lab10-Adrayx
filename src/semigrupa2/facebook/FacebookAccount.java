@@ -1,4 +1,4 @@
-package semigrupa2;
+package semigrupa2.facebook;
 
 import java.util.ArrayList;
 

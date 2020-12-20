@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe0b2481-018d-406a-9d73-cbb8d91cab05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/semigrupa2/FacebookAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semigrupa2/matrix/DoubleMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/semigrupa2/matrix/LongMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semigrupa2/pethotel/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/semigrupa2/pethotel/Record.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semigrupa2/FacebookAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semigrupa2/facebook/FacebookAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/semigrupa2/PetHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/semigrupa2/pethotel/PetHotel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -87,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607799074308</updated>
-      <workItem from="1608495133905" duration="2264000" />
+      <workItem from="1608495133905" duration="5233000" />
     </task>
     <servers />
   </component>
@@ -106,9 +109,9 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1608497867299">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1608502326296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608497867299" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608502326296" />
   </component>
 </project>
